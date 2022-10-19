@@ -25,9 +25,9 @@ const Home = () => (
   <div>
     <h3>Welcome</h3><br /><br />
     <p>
-      This is my Minor Project of React App.<br />
-      It Includes React Routes function for About and Contact Links attached to Navigation Buttons.<br />
+      This is my Minor Project of React App.<br /><br />
     </p>
+    <input type="file" name='img'></input>
   </div>
 );
 export default App;
