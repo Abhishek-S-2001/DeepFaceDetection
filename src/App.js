@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './Nav';
 import About from './About';
 import Contact from './Contact';
+import Home from './Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -15,19 +16,10 @@ function App() {
       <Route path='/About' component={About} />
       <Route path='/Contact' component={Contact} />
       </Switch>
-      
     </div>
     </Router>
   );
 }
 
-const Home = () => (
-  <div>
-    <h3>Welcome</h3><br /><br />
-    <p>
-      This is my Minor Project of React App.<br /><br />
-    </p>
-    <input type="file" name='img'></input>
-  </div>
-);
+
 export default App;
